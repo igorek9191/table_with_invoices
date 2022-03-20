@@ -28,7 +28,7 @@ In the root of project put in command prompt:<br />
 Then open ```Behaviors``` tab and you will see the result <br />
 If you want to see report with failures, then change couple of expected values in ```OurLittleTest``` class
 
-###Couple of my thoughts
+### Couple of my thoughts
 Firstly, this framework needs to add logging library.<br />
 Secondly, for further test development the framework needs to add property file to store config variables.<br />
 Thirdly, determination of rows in page objects could be done through finding child element with number of the order, and then, getting ancestor element as a row and sibling elements as another rows. This approach requires stable structure of the table.
